@@ -1,10 +1,10 @@
 import { ThemeProvider } from './ThemeProvider';
-import { Welcome } from './Welcome/Welcome';
+import AppShellDemo from './Welcome/Welcome';
 
 export default function App() {
   return (
     <ThemeProvider>
-      <Welcome />
+      <AppShellDemo />
     </ThemeProvider>
   );
 }
